@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Ironclad Door Hardware</title>
+  <meta name="description" content="Get in touch with Ironclad Door Hardware. Visit our Brisbane showroom, call our team, or send us an enquiry online.">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="Ironclad" class="logo-icon">
+        <span class="logo-text">Ironclad</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+        <li><a href="contact.html" class="nav-cta">Get a Quote</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ PAGE HEADER ═══ -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Contact <span>Us</span></h1>
+      <p>Have a question or need a quote? Our team is ready to help with your next project.</p>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT INFO CARDS ═══ -->
+  <section class="contact-cards">
+    <div class="container">
+      <div class="contact-cards-grid">
+
+        <div class="contact-card fade-in">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <h3>Visit Our Showroom</h3>
+          <p>Unit 7 / 42 Industrial Ave<br>Murarrie QLD 4172</p>
+          <a href="https://maps.google.com" target="_blank" class="contact-card-link">Get Directions →</a>
+        </div>
+
+        <div class="contact-card fade-in">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+          </div>
+          <h3>Call Us</h3>
+          <p>(07) 3890 4567</p>
+          <p class="contact-card-sub">Mon – Fri: 7:30 AM – 5:00 PM<br>Sat: 8:00 AM – 12:00 PM</p>
+        </div>
+
+        <div class="contact-card fade-in">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <h3>Email Us</h3>
+          <p>sales@ironcladhardware.com.au</p>
+          <p class="contact-card-sub">We typically respond within 2 business hours</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT FORM + MAP ═══ -->
+  <section class="contact-main">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Form -->
+        <div class="contact-form-wrapper fade-in">
+          <h2>Send Us an Enquiry</h2>
+          <p>Fill out the form below and one of our team will get back to you shortly.</p>
+          <div class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" required placeholder="Jane">
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" required placeholder="Smith">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" required placeholder="jane@example.com">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" placeholder="04XX XXX XXX">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject">
+                <option value="">— Select —</option>
+                <option value="quote">Request a Quote</option>
+                <option value="product">Product Enquiry</option>
+                <option value="order">Existing Order</option>
+                <option value="trade">Trade Account</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" rows="5" required placeholder="Tell us about your project or question…"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary btn-full" id="contactSubmit">
+              Send Enquiry
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 2L11 13"/><path d="M22 2L15 22 11 13 2 9l20-7z"/></svg>
+            </button>
+            <div class="form-success" id="formSuccess" style="display:none;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <p><strong>Thanks for your enquiry!</strong><br>We'll be in touch within 2 business hours.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map placeholder -->
+        <div class="contact-map fade-in">
+          <div class="map-placeholder">
+            <!-- Replace this div with a Google Maps iframe embed -->
+            <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="400" fill="#e8e0d4"/>
+              <circle cx="200" cy="170" r="40" fill="none" stroke="#8a7e6b" stroke-width="2"/>
+              <path d="M200 130 C200 130 240 170 200 210 C160 170 200 130 200 130Z" fill="#B8860B" opacity="0.3" stroke="#B8860B" stroke-width="1.5"/>
+              <circle cx="200" cy="168" r="8" fill="#B8860B"/>
+              <line x1="80" y1="280" x2="320" y2="280" stroke="#c4b9a8" stroke-width="1"/>
+              <line x1="80" y1="300" x2="280" y2="300" stroke="#c4b9a8" stroke-width="1"/>
+              <line x1="100" y1="320" x2="300" y2="320" stroke="#c4b9a8" stroke-width="1"/>
+              <text x="200" y="260" text-anchor="middle" fill="#8a7e6b" font-family="sans-serif" font-size="14">Replace with Google Maps embed</text>
+              <text x="200" y="350" text-anchor="middle" fill="#a89a85" font-family="sans-serif" font-size="12">Unit 7 / 42 Industrial Ave, Murarrie QLD 4172</text>
+            </svg>
+          </div>
+          <div class="map-info">
+            <h3>Brisbane Showroom</h3>
+            <p>Visit us to see and feel the hardware in person. Our showroom features working displays of all product lines. Trade and public welcome — no appointment needed.</p>
+            <div class="map-hours">
+              <div class="map-hours-row"><span>Mon – Fri</span><strong>7:30 AM – 5:00 PM</strong></div>
+              <div class="map-hours-row"><span>Saturday</span><strong>8:00 AM – 12:00 PM</strong></div>
+              <div class="map-hours-row"><span>Sunday</span><strong>Closed</strong></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <img src="images/logo.svg" alt="Ironclad" class="logo-icon">
+            <span class="logo-text">Ironclad</span>
+          </div>
+          <p>Premium architectural door hardware for residential and commercial projects across Australia.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 6a2 2 0 100-4 2 2 0 000 4z"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Products</h4>
+          <ul class="footer-links">
+            <li><a href="products.html">Door Handles</a></li>
+            <li><a href="products.html">Locks &amp; Deadbolts</a></li>
+            <li><a href="products.html">Hinges &amp; Pivots</a></li>
+            <li><a href="products.html">Door Closers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get in Touch</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Unit 7 / 42 Industrial Ave<br>Murarrie QLD 4172</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <span>(07) 3890 4567</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>sales@ironcladhardware.com.au</span>
+          </div>
+          <div class="footer-hours">
+            <div class="footer-hours-row"><span class="day">Mon — Fri</span><span class="time">7:30 AM — 5:00 PM</span></div>
+            <div class="footer-hours-row"><span class="day">Saturday</span><span class="time">8:00 AM — 12:00 PM</span></div>
+            <div class="footer-hours-row"><span class="day">Sunday</span><span class="time">Closed</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Ironclad Door Hardware. All rights reserved.</span>
+        <span>ABN 12 345 678 901</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

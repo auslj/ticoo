@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#D0C8BF"/>
+  <rect x="150" y="80" width="40" height="140" rx="4" fill="#8A827A"/>
+  <rect x="210" y="80" width="40" height="140" rx="4" fill="#8A827A"/>
+  <circle cx="200" cy="110" r="8" fill="#B8860B"/>
+  <circle cx="200" cy="150" r="8" fill="#B8860B"/>
+  <circle cx="200" cy="190" r="8" fill="#B8860B"/>
+  <text x="200" y="272" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#7A746D">Hinges &amp; Pivots</text>
+</svg>

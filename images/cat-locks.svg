@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#C5BEB5"/>
+  <rect x="155" y="110" width="90" height="80" rx="8" fill="#8A827A"/>
+  <path d="M175 110V85C175 65 225 65 225 85V110" stroke="#7A746D" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="200" cy="148" r="10" fill="#B8860B"/>
+  <rect x="196" y="155" width="8" height="16" rx="2" fill="#B8860B"/>
+  <text x="200" y="272" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#7A746D">Locks &amp; Deadbolts</text>
+</svg>
